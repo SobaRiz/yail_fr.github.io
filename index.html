@@ -1,0 +1,88 @@
+<!--PARTIE 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#377771">
+    <title>YAiL</title>
+    <link rel="stylesheet" href="./src/master.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="Images/cat_and_none.png">
+</head>
+<script>
+  if ('serviceWorker' in navigator){
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log("SW Registered .html!"))
+      .catch(err => console.error("Erreur SW via .html :", err));
+  }
+</script>
+
+
+
+
+<!--PARTIE 2-->
+<body>
+    <script src="./src/index.js"></script>
+    <main class="center">
+
+        <!--COMPOSANT GLOBAL OEIL-->
+        <div class="all">
+            <!--BOUTON CACHE-->
+            <button class="hidden_btn" onclick="alert('sushis')">Invisi-girl</button>
+            <div>
+                <!--PAUPIERE-->
+                <div class="anchor">
+                    <span></span>
+                </div>
+                <!--PUPILLE-->
+                <div class="eyes">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--BOUTTON LOAN-->
+        <h1>
+            <a href="https://tenor.com/view/gorilla-middle-finger-gif-14878906917560316861" target="_blank">
+                <button class="btnLoan"></button>
+            </a>
+        </h1>
+
+        <!--BOUTON EMMA-ROSE-->
+        <h1>
+            <a href="https://www.myinstants.com/fr/index/fr/" target="_blank">
+                <button class="btnEmRo">Emma Rose</button>
+            </a>
+        </h1>
+
+        <!--FAISONS SAUTER UN BOUTON ICI-->
+        <div class="jumpingButton">
+            <img src="./Images/flecheRouge.png" class="img-responsive">
+        </div>
+
+    </main>
+
+    <!--BOUTON PAULINE-->
+    <h1>
+        <a href="" target="_blank">
+            <button class="btnPauline">aprender a dudar es aprender a pensar</button>
+        </a>
+    </h1>
+
+
+    <!--BOUTON PRINCIPAL A CLIQUER-->
+    <h1>
+        <a href="https://www.youtube.com/watch?v=v7ScGV5128A" target="_blank">
+            <center>Cliquez moi !</center>
+        </a>
+    </h1>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+  "name":"dcode YAiL  PWA",
+  "short_name": "dcode YAiL PWA",
+  "start_url": ".",
+  "background_color": "#C8BFC7",
+  "scope": "/",
+  "theme_color":"#377771",
+  "display":"standalone",
+  "screenshots": [
+    {
+      "src":"./Images/cat_and_white.png",
+      "sizes":"748x748",
+      "type":"image/png",
+      "form_factor": "wide",
+      "label": "Application Lambda"
+    },
+    {
+      "src":"./Images/cat_and_white.png",
+      "sizes":"748x748",
+      "type":"image/png",
+      "platform": "ios",
+      "label": "Application iOS"
+    }
+  ],
+  "icons": [
+    {
+      "src":"./Images/cat_and_none.png",
+      "sizes":"748x748",
+      "type":"image/png",
+      "purpose": "any"
+    },
+    {
+      "src":"./Images/cat_and_none.png",
+      "sizes":"748x748",
+      "type":"image/png",
+      "purpose": "any"
+    }
+  ]
+}
